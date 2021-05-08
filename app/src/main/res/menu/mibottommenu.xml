@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_hamburguesa"
+        android:title="Hamburguesas"
+        android:icon="@drawable/burger_blanco"
+        />
+    <item
+        android:id="@+id/nav_americana"
+        android:title="Americana"
+        android:icon="@drawable/america_kotlin"
+        />
+    <item
+        android:id="@+id/nav_pizza"
+        android:title="Pizzas"
+        android:icon="@drawable/pizza_blanco"
+        />
+    <item
+        android:id="@+id/nav_bebidas"
+        android:title="Bebidas"
+        android:icon="@drawable/soft_drink"
+        />
+</menu>
