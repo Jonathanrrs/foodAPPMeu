@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_hamburguesa">
+
+    <fragment
+        android:id="@+id/nav_hamburguesa"
+        android:name="com.example.menufull.ui.hamburguesas.HamburguesaFragment"
+        android:label="Menú"
+        tools:layout="@layout/fragment_hamburguesa" />
+
+    <fragment
+        android:id="@+id/nav_americana"
+        android:name="com.example.menufull.ui.americanas.AmericanaFragment"
+        android:label="Menú"
+        tools:layout="@layout/fragment_americana" />
+
+    <fragment
+        android:id="@+id/nav_pizza"
+        android:name="com.example.menufull.ui.pizzas.PizzaFragment"
+        android:label="Menú"
+        tools:layout="@layout/fragment_pizza" />
+    <fragment
+        android:id="@+id/nav_bebidas"
+        android:name="com.example.menufull.ui.bebidas.BebidasFragment"
+        android:label="Menú"
+        tools:layout="@layout/fragment_bebidas" />
+</navigation>
